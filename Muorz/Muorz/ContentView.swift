@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  Muorz
+//  muorz
 //
-//  Created by Simon Naud on 22/05/25.
+//  Created by Simon Naud on 23/05/2025.
 //
 
 import SwiftUI

@@ -7,19 +7,32 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		8916B48C2DDF726D00D374DD /* Muorz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Muorz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DA748D42DE0677100C9EBAF /* muorz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = muorz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4DA748E42DE0677200C9EBAF /* Exceptions for "muorz" folder in "muorz" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4DA748D32DE0677100C9EBAF /* muorz */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		8916B48E2DDF726E00D374DD /* Muorz */ = {
+		4DA748D62DE0677100C9EBAF /* muorz */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Muorz;
+			exceptions = (
+				4DA748E42DE0677200C9EBAF /* Exceptions for "muorz" folder in "muorz" target */,
+			);
+			path = muorz;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8916B4892DDF726D00D374DD /* Frameworks */ = {
+		4DA748D12DE0677100C9EBAF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8916B4832DDF726D00D374DD = {
+		4DA748CB2DE0677100C9EBAF = {
 			isa = PBXGroup;
 			children = (
-				8916B48E2DDF726E00D374DD /* Muorz */,
-				8916B48D2DDF726E00D374DD /* Products */,
+				4DA748D62DE0677100C9EBAF /* muorz */,
+				4DA748D52DE0677100C9EBAF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8916B48D2DDF726E00D374DD /* Products */ = {
+		4DA748D52DE0677100C9EBAF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8916B48C2DDF726D00D374DD /* Muorz.app */,
+				4DA748D42DE0677100C9EBAF /* muorz.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +61,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8916B48B2DDF726D00D374DD /* Muorz */ = {
+		4DA748D32DE0677100C9EBAF /* muorz */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8916B49C2DDF726F00D374DD /* Build configuration list for PBXNativeTarget "Muorz" */;
+			buildConfigurationList = 4DA748E52DE0677200C9EBAF /* Build configuration list for PBXNativeTarget "muorz" */;
 			buildPhases = (
-				8916B4882DDF726D00D374DD /* Sources */,
-				8916B4892DDF726D00D374DD /* Frameworks */,
-				8916B48A2DDF726D00D374DD /* Resources */,
+				4DA748D02DE0677100C9EBAF /* Sources */,
+				4DA748D12DE0677100C9EBAF /* Frameworks */,
+				4DA748D22DE0677100C9EBAF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				8916B48E2DDF726E00D374DD /* Muorz */,
+				4DA748D62DE0677100C9EBAF /* muorz */,
 			);
-			name = Muorz;
+			name = muorz;
 			packageProductDependencies = (
 			);
-			productName = Muorz;
-			productReference = 8916B48C2DDF726D00D374DD /* Muorz.app */;
+			productName = muorz;
+			productReference = 4DA748D42DE0677100C9EBAF /* muorz.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8916B4842DDF726D00D374DD /* Project object */ = {
+		4DA748CC2DE0677100C9EBAF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1600;
-				LastUpgradeCheck = 1600;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
 				TargetAttributes = {
-					8916B48B2DDF726D00D374DD = {
-						CreatedOnToolsVersion = 16.0;
+					4DA748D32DE0677100C9EBAF = {
+						CreatedOnToolsVersion = 16.1;
 					};
 				};
 			};
-			buildConfigurationList = 8916B4872DDF726D00D374DD /* Build configuration list for PBXProject "Muorz" */;
+			buildConfigurationList = 4DA748CF2DE0677100C9EBAF /* Build configuration list for PBXProject "muorz" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 8916B4832DDF726D00D374DD;
+			mainGroup = 4DA748CB2DE0677100C9EBAF;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 8916B48D2DDF726E00D374DD /* Products */;
+			productRefGroup = 4DA748D52DE0677100C9EBAF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8916B48B2DDF726D00D374DD /* Muorz */,
+				4DA748D32DE0677100C9EBAF /* muorz */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8916B48A2DDF726D00D374DD /* Resources */ = {
+		4DA748D22DE0677100C9EBAF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +128,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8916B4882DDF726D00D374DD /* Sources */ = {
+		4DA748D02DE0677100C9EBAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +138,69 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		8916B49A2DDF726F00D374DD /* Debug */ = {
+		4DA748E62DE0677200C9EBAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = muorz/muorz.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"muorz/Preview Content\"";
+				DEVELOPMENT_TEAM = S2HMY3482H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = muorz/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mingle.muorz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DA748E72DE0677200C9EBAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = muorz/muorz.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"muorz/Preview Content\"";
+				DEVELOPMENT_TEAM = S2HMY3482H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = muorz/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mingle.muorz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4DA748E82DE0677200C9EBAF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -177,7 +252,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -188,7 +263,7 @@
 			};
 			name = Debug;
 		};
-		8916B49B2DDF726F00D374DD /* Release */ = {
+		4DA748E92DE0677200C9EBAF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,7 +309,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -244,86 +319,28 @@
 			};
 			name = Release;
 		};
-		8916B49D2DDF726F00D374DD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Muorz/Preview Content\"";
-				DEVELOPMENT_TEAM = S2HMY3482H;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = simon.Muorz;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		8916B49E2DDF726F00D374DD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Muorz/Preview Content\"";
-				DEVELOPMENT_TEAM = S2HMY3482H;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = simon.Muorz;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8916B4872DDF726D00D374DD /* Build configuration list for PBXProject "Muorz" */ = {
+		4DA748CF2DE0677100C9EBAF /* Build configuration list for PBXProject "muorz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8916B49A2DDF726F00D374DD /* Debug */,
-				8916B49B2DDF726F00D374DD /* Release */,
+				4DA748E82DE0677200C9EBAF /* Debug */,
+				4DA748E92DE0677200C9EBAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8916B49C2DDF726F00D374DD /* Build configuration list for PBXNativeTarget "Muorz" */ = {
+		4DA748E52DE0677200C9EBAF /* Build configuration list for PBXNativeTarget "muorz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8916B49D2DDF726F00D374DD /* Debug */,
-				8916B49E2DDF726F00D374DD /* Release */,
+				4DA748E62DE0677200C9EBAF /* Debug */,
+				4DA748E72DE0677200C9EBAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8916B4842DDF726D00D374DD /* Project object */;
+	rootObject = 4DA748CC2DE0677100C9EBAF /* Project object */;
 }
